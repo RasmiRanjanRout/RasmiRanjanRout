@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Profile</title>
+<style>
+body{background-color:#c33764  ;
+background-image:url("https://www.google.com/imgres?q=rasmi%20ranjan%20name%20image&imgurl=https%3A%2F%2Fwww.signaturewrite.com%2Fs%2Fsig%2Findex.php%3Fname%3Drasmi-ranjan%26f%3D153&imgrefurl=https%3A%2F%2Fwww.signaturewrite.com%2Fs%2Frasmi-ranjan&docid=z4_czrJLjhguEM&tbnid=cOFhSpI2W_zZYM&vet=12ahUKEwjT4avBgdqKAxWYR2wGHVneOXwQM3oECBkQAA..i&w=1388&h=470&hcb=2&ved=2ahUKEwjT4avBgdqKAxWYR2wGHVneOXwQM3oECBkQAA");
+background-size:cover;
+}
+.d1,.d2,.d3,.all{
+display:none;
+}
+
+.d3{
+color:#f5e000;}
+h2,h3{
+color:orange;
+}
+p{
+font-size:20px;
+color:red;
+
+}
+h1{color:#59082d;
+text-align:center;
+}
+button{
+background-color:violet;
+}
+hr{border:1px solid black;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$(".b4").click(function(){
+$(".all").toggle(5000);
+$(".b4").animate({margin:'0px 0px 550px 420px ',height:'30px'},2000).css("background-color","#a82720");
+});
+
+$(".b1").click(function(){
+$(".d1").toggle(5000);
+
+});
+
+
+$(".b2").click(function(){
+$(".d2").toggle(5000);
+
+});
+$(".b3").click(function(){
+$(".d3").toggle(5000);
+
+});
+});
+</script>
+</head>
+<body>
+
+<div class="all">
+<h1>WELCOME TO MY PROFILE</h1><hr>
+<h3>About Myself
+<div class="d1"><p>Hi,<mark>Rasmi Ranjan Rout</mark> this side and i am from Cuttack .</p>
+<p>My hobby is Developing</p></div></h3><button class="b1">click to see</button>
+<br>
+<h2>Education</h2>
+<div class="d2"><p>*I have done my 10th from LRHS School securing <mark>84%</mark> in board exam.</p>
+<p>*I have done my 12th from MPC HSS securing <mark>77.5%</mark> in board exam.</p>
+<p>*Currently I am pursuing my B.Tech degree in Computer Science & Engineering from ITER,SOA University.</p></div><button class="b2">show education</button>
+<h2>Skills</h2>
+<div class="d3"><b><ul><li>HTML</li><li>CSS</li><li>JAVA</li><li>JAVASCRIPT</li><li>jQuery</li><li>BOOTSTRAP</li></ul></b></div><button class="b3">show skills</button>
+</div>
+<br>
+<button class="b4">click me</button>
+
+</body>
+</html>
